@@ -1,4 +1,5 @@
-function checkOddOrEven(num) {
+//  Oppgave 1
+const checkOddOrEven = (num) => {
     if (num % 2 === 0) {
         return "Even";
     } else {
@@ -6,7 +7,7 @@ function checkOddOrEven(num) {
     }
 }
 
-console.log(checkOddOrEven(2));
+console.log(checkOddOrEven(1));
 console.log(checkOddOrEven(5));
 console.log(checkOddOrEven(10));
 console.log(checkOddOrEven(17));
