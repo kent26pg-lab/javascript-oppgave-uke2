@@ -15,7 +15,11 @@ console.log(checkOddOrEven(18));
 
 // Oppgave 2
 
-function gjørStoreBokstaver(text) {
+function exString1(text) {
     return text.toUpperCase() + "!"; 
 } 
-console.log(gjørStoreBokstaver("hallo"))
+console.log(exString1("hello"))
+console.log(exString1("hope you are doing fine"))
+
+const exString2 = (text) => text.toUpperCase() + "!";
+console.log(exString2("this is a test for arrow function"));
