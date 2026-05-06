@@ -23,3 +23,20 @@ console.log(exString1("hope you are doing fine"))
 
 const exString2 = (text) => text.toUpperCase() + "!";
 console.log(exString2("this is a test for arrow function"));
+
+// oppgave 3
+
+const hils = (navn, time) => {
+    if (time === undefined  || time === null) {
+    return "Feil ingen time verdi avgitt";
+     }
+     if (time < 0 || time > 23 ) {
+        return "ugyldig tid"
+         }
+        if (time <= 5)  return `God natt, ${navn}`;
+         if (time <= 11) return `God morgen, ${navn}`;
+         if (time <= 17) return `God dag, ${navn}`;
+         if (time <= 23) return `God kveld, ${navn}`;
+     };
+ 
+     console.log(hils("Kurt", 18));
