@@ -40,3 +40,6 @@ const hils = (navn, time) => {
      };
  
      console.log(hils("Kurt", 18));
+
+    //  oppgave 4
+    
