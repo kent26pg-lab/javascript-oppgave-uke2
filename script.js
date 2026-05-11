@@ -39,12 +39,14 @@ const hils = (navn, time) => {
   if (time <= 23) return `God kveld, ${navn}`;
 };
 
-console.log(hils("Kurt", 18));
+console.log(hils("Kurt", 19));
 
 //  oppgave 4
 
 function removeArrays(arr) {
-  return arr.slice(0, -1);
+  return arr.slice(1, -1);
 }
 
 console.log(removeArrays(["Rød", "Grønn", "Blå", "Gul"]));
+
+// oppgave 5
