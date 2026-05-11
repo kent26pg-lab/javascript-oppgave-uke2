@@ -50,3 +50,13 @@ function removeArrays(arr) {
 console.log(removeArrays(["Rød", "Grønn", "Blå", "Gul"]));
 
 // oppgave 5
+
+function cleanString(string) {
+  const cleanedString = string.replace("vanskelig", "gøy").trim()
+
+  return cleanedString
+}
+
+console.log(cleanString("  Javascript er vanskelig   "));
+console.log(cleanString(" Det er vanskelig å bruke metoder "));
+console.log(cleanString(" vanskelig "));
