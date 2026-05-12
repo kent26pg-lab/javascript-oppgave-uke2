@@ -60,3 +60,23 @@ function cleanString(string) {
 console.log(cleanString("  Javascript er vanskelig   "));
 console.log(cleanString(" Det er vanskelig å bruke metoder "));
 console.log(cleanString(" vanskelig "));
+
+
+// oppgave 6
+
+const items = ["Bok", "Penn", "Notatbok", "Viskelær", "Blyant", "Markør"];
+
+items.shift();
+console.log(items);
+
+items.splice(items.indexOf("Viskelær"), 1, "Linjal");
+
+console.log(items)
+
+items.splice(items.indexOf("Penn"), 2, "Markeringspenn");
+
+console.log(items)
+
+const combined = items.join(" | ");
+
+console.log(combined);
